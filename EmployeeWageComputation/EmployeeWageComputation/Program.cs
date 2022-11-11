@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Employee employeewage = new Employee();
-            employeewage.Attendance();
+            Employee employee = new Employee();
+            employee.Attendance();
         }
     }
 }
