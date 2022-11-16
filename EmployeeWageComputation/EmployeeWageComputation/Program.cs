@@ -1,12 +1,11 @@
-﻿namespace Employee_Wage
+﻿namespace EmployeeWageComputation
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            Employee workDays = new Employee();
-            workDays.CalculateEmpWage();
-
+            Employee empWage = new Employee();
+            empWage.ComputeEmpWage();
         }
     }
 }
